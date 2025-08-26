@@ -1,11 +1,11 @@
 <?php
 
-namespace XXX;
+namespace InvitationCodeControllerApi;
 
 class Configuration
 {
     public function render()
     {
-        return view('xxx::config');
+        //return view('xxx::config');
     }
 }
