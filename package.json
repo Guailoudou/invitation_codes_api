@@ -1,7 +1,7 @@
 {
-  "name": "InvitationCodeControllerApi",
-  "title": "InvitationCodeControllerApi",
-  "version": "0.1.0",
+  "name": "invitationcode-api",
+  "title": "邀请码API",
+  "version": "0.1.1",
   "description": "InvitationCodeControllerApi",
   "author": "Guailoudou",
   "url": "https://github.com/Guailoudou/invitation_codes_api",

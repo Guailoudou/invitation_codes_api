@@ -5,12 +5,12 @@ use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events, Filter $filter) {
     //
-    Hook::addRoute(function () {
-        Route::namespace('InvitationCodes')
+    Hook::addRoute(function (): void {
+        Route::namespace('InvitationCodeControllerApi')
             ->middleware([])
             ->prefix('api/invitation-codes')
             ->group(function () {
-                Route::get('', 'InvitationCodeControllerApi@list');
+                Route::get('', 'Controller@list');
                 // Route::post('generate', 'InvitationCodeControllerApi@generate');
             });
     });

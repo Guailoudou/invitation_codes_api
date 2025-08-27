@@ -1,6 +1,6 @@
-# plugin-template
+# plugin
 
-This is a template repository for creating plugin, feel free to use it then modify it.
+[/api/invitation-codes](/api/invitation-codes)
 
 ## License
 

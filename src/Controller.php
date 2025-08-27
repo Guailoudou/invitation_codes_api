@@ -13,6 +13,6 @@ class Controller extends BaseController
         $free = DB::table('invitation_codes')->where('used_by', 0)->get();
         $used = DB::table('invitation_codes')->where('used_by', '<>', 0)->get();
 
-        return response()->json()->setContent(compact('free', 'used'));
+        return response()->json(compact('free', 'used'));
     }
 }
